@@ -1,26 +1,30 @@
 # Student-Inquiry-Automation-n8n
+---
 An automated workflow designed to streamline student inquiries, categorize requests using AI, and sync data across CRM and communication platforms. This project leverages n8n to eliminate manual data entry and ensure faster response times for prospective students.
 
----
+
 Workflow Diagram
 
----
+
 Features
+---
 1. Multi-Channel Intake: Automatically captures inquiries from Webflow/Elementor forms, Email, and WhatsApp.
 2. AI Categorization: Uses OpenAI/Anthropic to tag inquiries by urgency and interest level.
 3. Lead Management: Syncs data directly to Google Sheets or CRMs (like HubSpot/Salesforce).
 4. Instant Notifications: Sends real-time alerts to the admissions team via Slack or Discord.
 5. Auto-Responder: Sends a personalized "Thank You" email to the student immediately.
 
----
+
 Tech Stack
+---
 1. Automation: n8n.io
 2. Storage: Google Sheets / PostgreSQL
 3. Communication: Gmail API, Slack API
 4. AI: OpenAI API (for sentiment analysis and tagging)
 
----
+
 Installation & Setup
+---
 1. Self-hosted n8n: Ensure you have an active n8n instance running.
 2. Import Workflow: * Download the student_inquiry_workflow.json from this repository.
 3. In n8n, click on Workflows > Import from File.
