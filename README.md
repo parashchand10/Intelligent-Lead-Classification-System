@@ -14,8 +14,8 @@ Workflow Diagram
 </p>
 
 **Lead Scoring & Email Automation Flow**
-
-<img src="Lead Automation.png" alt="n8n Project" width="800" height="800" />
+<img src="Lead Automation.png" alt="n8n Project" width="2000" height="2000" />
+<img src="Lead Automation.png" alt="n8n Project" width="2000" height="2000" />
 
 Features
 ---
