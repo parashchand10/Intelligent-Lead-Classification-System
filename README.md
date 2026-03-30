@@ -8,7 +8,7 @@ Workflow Diagram
 **AI Student Inquiry Automation Flow**
 
 <p align="center">
-  <img src="AI Automation Flow.png" width="100%">
+  <img src="AI Automation Flow.png" width="500%">
 </p>
 
 **Lead Scoring & Email Automation Flow**
