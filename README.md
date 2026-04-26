@@ -21,8 +21,8 @@ Features
 Tech Stack
 ---
 1. Automation: n8n.io
-2. Storage: Google Sheets / PostgreSQL
-3. Communication: Gmail API, Slack API
+2. Storage: Google Sheets
+3. Communication: Gmail API
 4. AI: OpenAI API (for sentiment analysis and tagging)
 
 
