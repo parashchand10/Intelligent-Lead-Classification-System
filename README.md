@@ -11,7 +11,7 @@ Workflow Diagram
 
 Features
 ---
-1. Multi-Channel Intake: Automatically captures inquiries from Webflow/Elementor forms, Email, and WhatsApp.
+1. Multi-Channel Intake: Automatically captures inquiries from forms, Email.
 2. AI Categorization: Uses OpenAI/Anthropic to tag inquiries by urgency and interest level.
 3. Lead Management: Syncs data directly to Google Sheets or CRMs (like HubSpot/Salesforce).
 4. Instant Notifications: Sends real-time alerts to the admissions team via Slack or Discord.
