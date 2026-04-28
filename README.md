@@ -34,6 +34,7 @@ Tech Stack
 
 Installation & Setup
 ---
+```
 Step 1 — Start n8n
 
 Run n8n locally or cloud instance
@@ -57,3 +58,4 @@ Groq API Key
 Step 4 — Activate Workflow
 
 Toggle workflow to Active
+```
