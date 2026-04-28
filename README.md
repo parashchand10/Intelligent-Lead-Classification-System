@@ -1,7 +1,7 @@
 
 # Intelligent Lead Classification System - n8n
 
-An automated workflow designed to streamline student inquiries, categorize requests using AI, and sync data across CRM and communication platforms. This project leverages n8n to eliminate manual data entry and ensure faster response times for prospective students.
+An AI-powered automation workflow built using n8n that captures student inquiries, classifies leads (HOT/WARM/COLD), and automatically sends follow-up emails while saving data to Google Sheets.
 
 
 Workflow Diagram
@@ -11,26 +11,40 @@ Workflow Diagram
 
 Features
 ---
-1. Multi-Channel Intake: Automatically captures inquiries from forms and Email.
-2. AI Categorization: Uses Groq model to tag inquiries by urgency and interest level.
-3. Lead Management: Syncs data directly to Google Sheets or CRMs (like HubSpot/Salesforce).
-4. Instant Notifications: Sends real-time alerts to the admissions team via Slack or Discord.
-5. Auto-Responder: Sends a personalized "Thank You" email to the student immediately.
+1. AI-powered chatbot that replies to student inquiries automatically
+2. Captures lead details (name, email, phone, course) from chat
+3. Stores chat history and leads in Google Sheets
+4. Sends automated personalized emails to students
+5. Automatic classification into HOT, WARM, and COLD leads
+6. Notifies counselor instantly for high-priority leads
+7. Follow-up email campaigns based on lead category
 
 
 Tech Stack
 ---
-1. Automation: n8n.io
-2. Storage: Google Sheets
-3. Communication: Gmail API
-4. AI: Groq API (for sentiment analysis and tagging)
+1. Automation: n8n
+2. AI Model: Groq Chat Model
+3. Database: Google Sheets
+4. Email Service: Gmail API
+5. Logic: JavaScript (Lead Scoring)
+6. Memory: n8n Memory Buffer
+7. Trigger: n8n Chat Webhook
 
 
 Installation & Setup
 ---
-1. Self-hosted n8n: Ensure you have an active n8n instance running.
-2. Import Workflow: * Download the student_inquiry_workflow.json from this repository.
-3. In n8n, click on Workflows > Import from File.
-Configure Credentials:
-Set up your API keys for Google, Groq, and your chosen mail provider in the n8n Credentials section.
-4. Activate: Toggle the workflow to Active to start receiving inquiries.
+Step 1 — Start n8n
+Run n8n locally or cloud instance
+
+Step 2 — Import Workflow
+Download workflow JSON
+Go to n8n → Import from file
+
+Step 3 — Configure Credentials
+Add:
+Google Sheets OAuth
+Gmail OAuth
+Groq API Key
+
+Step 4 — Activate Workflow
+Toggle workflow to Active
