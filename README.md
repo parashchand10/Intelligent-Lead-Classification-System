@@ -36,7 +36,6 @@ Installation & Setup
 ---
 ```
 Step 1 — Start n8n
-
 Run n8n locally or cloud instance
 
 Step 2 — Import Workflow
