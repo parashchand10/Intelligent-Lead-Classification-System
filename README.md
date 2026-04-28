@@ -39,22 +39,15 @@ Step 1 — Start n8n
 Run n8n locally or cloud instance
 
 Step 2 — Import Workflow
-
 Download workflow JSON
-
 Go to n8n → Import from file
 
 Step 3 — Configure Credentials
-
 Add:
-
 Google Sheets OAuth
-
 Gmail OAuth
-
 Groq API Key
 
 Step 4 — Activate Workflow
-
 Toggle workflow to Active
 ```
