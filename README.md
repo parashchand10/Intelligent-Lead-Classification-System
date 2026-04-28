@@ -3,6 +3,7 @@
 
 An AI-powered automation workflow built using n8n that captures student inquiries, classifies leads (HOT/WARM/COLD), and automatically sends follow-up emails while saving data to Google Sheets.
 
+This system removes manual lead handling and ensures fast responses to prospective students.
 
 Workflow Diagram
 ---
@@ -34,17 +35,25 @@ Tech Stack
 Installation & Setup
 ---
 Step 1 — Start n8n
+
 Run n8n locally or cloud instance
 
 Step 2 — Import Workflow
+
 Download workflow JSON
+
 Go to n8n → Import from file
 
 Step 3 — Configure Credentials
+
 Add:
+
 Google Sheets OAuth
+
 Gmail OAuth
+
 Groq API Key
 
 Step 4 — Activate Workflow
+
 Toggle workflow to Active
