@@ -12,7 +12,7 @@ Workflow Diagram
 Features
 ---
 1. Multi-Channel Intake: Automatically captures inquiries from forms and Email.
-2. AI Categorization: Uses OpenAI/Anthropic to tag inquiries by urgency and interest level.
+2. AI Categorization: Uses Groq model to tag inquiries by urgency and interest level.
 3. Lead Management: Syncs data directly to Google Sheets or CRMs (like HubSpot/Salesforce).
 4. Instant Notifications: Sends real-time alerts to the admissions team via Slack or Discord.
 5. Auto-Responder: Sends a personalized "Thank You" email to the student immediately.
@@ -23,7 +23,7 @@ Tech Stack
 1. Automation: n8n.io
 2. Storage: Google Sheets
 3. Communication: Gmail API
-4. AI: OpenAI API (for sentiment analysis and tagging)
+4. AI: Groq API (for sentiment analysis and tagging)
 
 
 Installation & Setup
@@ -32,5 +32,5 @@ Installation & Setup
 2. Import Workflow: * Download the student_inquiry_workflow.json from this repository.
 3. In n8n, click on Workflows > Import from File.
 Configure Credentials:
-Set up your API keys for Google, OpenAI, and your chosen mail provider in the n8n Credentials section.
+Set up your API keys for Google, Groq, and your chosen mail provider in the n8n Credentials section.
 4. Activate: Toggle the workflow to Active to start receiving inquiries.
